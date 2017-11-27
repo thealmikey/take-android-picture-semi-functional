@@ -9,4 +9,10 @@
                     android:id="@+id/takePicButton"
                     android:text="Take a pic"
             />
+ <ImageView
+                    android:layout_below="@id/takePicButton"
+                    android:layout_width="300dp"
+                       android:layout_height="300dp"
+                       android:id="@+id/theImageView"
+            />
 </LinearLayout>
